@@ -10,6 +10,8 @@ the eBay ProMini clones were much cheaper than full sized Arduinos and their clo
 Until the [Core Wemos D1 Mini](/Core-Wemos.html) and [Core-ESP32](/Core-ESP32.html) boards,
 this was my go-to building block for field units and other layout automation tasks.
 
+V2.0 has an onboard Loconet interface, V3.0 removes it
+
 
 
 
