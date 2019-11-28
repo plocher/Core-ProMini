@@ -1,3 +1,3 @@
 IO4-based Arduino ProMini baseboard
 
-removed Loconet interface electronics
+removed Loconet interface electronics and per-pin status LEDs to make a simpler board
