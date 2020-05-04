@@ -6,3 +6,4 @@ fab_date: 2017-05
 status: released
 release: yes
 image_path: Core-ProMini-Graphic.png
+tags: [eagle, SPCoast, Processor]
