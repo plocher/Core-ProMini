@@ -15135,16 +15135,16 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="I2C" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT" value="I2C"/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
 <part name="C5" library="SPCoast" deviceset="CAP-POL*" device="0810" value="150uF"/>
-<part name="U$2" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT"/>
+<part name="CPU" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT"/>
 <part name="J4" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="2.1mm"/>
-<part name="U$3" library="SPCoast" deviceset="DOC-POWER_LABEL" device="" value="9-12vDC"/>
+<part name="PWR" library="SPCoast" deviceset="DOC-POWER_LABEL" device="" value="9-12vDC"/>
 <part name="VCC12" library="supply1" deviceset="VCCIO" device=""/>
 <part name="V15" library="supply2" deviceset="GND" device=""/>
 <part name="VCC13" library="supply1" deviceset="VCCIO" device=""/>
-<part name="U$4" library="SPCoast" deviceset="BOARD" device="69X100MRCS" value="BOARD69X100MRCS"/>
+<part name="BOARD" library="SPCoast" deviceset="BOARD" device="69X100MRCS" value="BOARD69X100MRCS"/>
 <part name="C1" library="SPCoast" deviceset="CAP*" device="0805" value="1uF"/>
 <part name="C2" library="SPCoast" deviceset="CAP*" device="0805" value="1uF"/>
-<part name="LOGO1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="L"/>
+<part name="OSH" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="L" value="L"/>
 <part name="IC1" library="SPCoast" deviceset="VREG-?-*" device="DPAK" technology="5" value="cj7805"/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK" value="5.08"/>
 <part name="V4" library="supply2" deviceset="GND" device=""/>
@@ -15212,13 +15212,13 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="I2C" gate="I2C" x="170.18" y="66.04"/>
 <instance part="V1" gate="GND" x="160.02" y="68.58" rot="R270"/>
 <instance part="C5" gate="C1" x="175.26" y="96.52"/>
-<instance part="U$2" gate="A" x="190.5" y="144.78"/>
+<instance part="CPU" gate="A" x="190.5" y="144.78"/>
 <instance part="J4" gate="J" x="157.48" y="99.06"/>
-<instance part="U$3" gate="PWR1" x="157.48" y="109.22"/>
+<instance part="PWR" gate="PWR1" x="157.48" y="109.22"/>
 <instance part="VCC12" gate="G$1" x="205.74" y="68.58"/>
 <instance part="V15" gate="GND" x="175.26" y="121.92"/>
 <instance part="VCC13" gate="G$1" x="170.18" y="129.54"/>
-<instance part="U$4" gate="B" x="236.22" y="40.64"/>
+<instance part="BOARD" gate="B" x="236.22" y="40.64"/>
 <instance part="C1" gate="C1" x="203.2" y="96.52" smashed="yes">
 <attribute name="NAME" x="198.501" y="100.076" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="200.533" y="95.504" size="1.016" layer="96" rot="R270"/>
@@ -15227,7 +15227,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="NAME" x="185.801" y="102.616" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="184.531" y="95.758" size="1.016" layer="96" rot="R270"/>
 </instance>
-<instance part="LOGO1" gate="DOC-OSHW-LOGO" x="233.68" y="55.88"/>
+<instance part="OSH" gate="DOC-OSHW-LOGO" x="233.68" y="55.88"/>
 <instance part="IC1" gate="VR" x="193.04" y="101.6"/>
 <instance part="CON1" gate="J" x="220.98" y="81.28" rot="MR180"/>
 <instance part="V4" gate="GND" x="226.06" y="76.2"/>
@@ -15300,7 +15300,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="V1" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="A" pin="GND"/>
+<pinref part="CPU" gate="A" pin="GND"/>
 <wire x1="177.8" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="V15" gate="GND" pin="GND"/>
 </segment>
@@ -15332,7 +15332,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
 <label x="205.74" y="165.1" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="RX"/>
+<pinref part="CPU" gate="A" pin="RX"/>
 </segment>
 <segment>
 <pinref part="CMRI-IO" gate="CON1" pin="4"/>
@@ -15344,7 +15344,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
 <label x="205.74" y="134.62" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D11"/>
+<pinref part="CPU" gate="A" pin="D11"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
@@ -15359,7 +15359,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <label x="205.74" y="132.08" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D12"/>
+<pinref part="CPU" gate="A" pin="D12"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
@@ -15374,7 +15374,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <label x="205.74" y="129.54" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D13"/>
+<pinref part="CPU" gate="A" pin="D13"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
@@ -15389,7 +15389,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="175.26" y1="165.1" x2="177.8" y2="165.1" width="0.1524" layer="91"/>
 <label x="175.26" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="A" pin="A0"/>
+<pinref part="CPU" gate="A" pin="A0"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
@@ -15452,7 +15452,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="203.2" y1="157.48" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <label x="205.74" y="157.48" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D2"/>
+<pinref part="CPU" gate="A" pin="D2"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
@@ -15467,7 +15467,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="203.2" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <label x="205.74" y="152.4" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D4"/>
+<pinref part="CPU" gate="A" pin="D4"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
@@ -15492,7 +15492,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="175.26" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <label x="175.26" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="A" pin="A4"/>
+<pinref part="CPU" gate="A" pin="A4"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -15509,14 +15509,14 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="175.26" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
 <label x="175.26" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="A" pin="A5"/>
+<pinref part="CPU" gate="A" pin="A5"/>
 </segment>
 </net>
 <net name="D8" class="0">
 <segment>
 <wire x1="203.2" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
 <label x="205.74" y="142.24" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D8"/>
+<pinref part="CPU" gate="A" pin="D8"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
@@ -15531,7 +15531,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="203.2" y1="144.78" x2="205.74" y2="144.78" width="0.1524" layer="91"/>
 <label x="205.74" y="144.78" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D7"/>
+<pinref part="CPU" gate="A" pin="D7"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
@@ -15546,7 +15546,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="203.2" y1="154.94" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
 <label x="205.74" y="154.94" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D3"/>
+<pinref part="CPU" gate="A" pin="D3"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="129.54" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
@@ -15605,7 +15605,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="I2C-POWER" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="A" pin="5V"/>
+<pinref part="CPU" gate="A" pin="5V"/>
 <wire x1="177.8" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
 <pinref part="VCC13" gate="G$1" pin="VCCIO"/>
 </segment>
@@ -15620,7 +15620,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 <label x="205.74" y="162.56" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="TX"/>
+<pinref part="CPU" gate="A" pin="TX"/>
 </segment>
 <segment>
 <pinref part="CMRI-IO" gate="CON1" pin="3"/>
@@ -15632,7 +15632,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="149.86" x2="203.2" y2="149.86" width="0.1524" layer="91"/>
 <label x="205.74" y="149.86" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D5"/>
+<pinref part="CPU" gate="A" pin="D5"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
@@ -15647,7 +15647,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <label x="205.74" y="147.32" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D6"/>
+<pinref part="CPU" gate="A" pin="D6"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
@@ -15662,7 +15662,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
 <label x="205.74" y="139.7" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D9"/>
+<pinref part="CPU" gate="A" pin="D9"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
@@ -15677,7 +15677,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="205.74" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
 <label x="205.74" y="137.16" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="A" pin="D10"/>
+<pinref part="CPU" gate="A" pin="D10"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
@@ -15692,7 +15692,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="175.26" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <label x="175.26" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="A" pin="A1"/>
+<pinref part="CPU" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
@@ -15707,7 +15707,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="175.26" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
 <label x="175.26" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="A" pin="A2"/>
+<pinref part="CPU" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
@@ -15722,7 +15722,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="175.26" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 <label x="175.26" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="A" pin="A3"/>
+<pinref part="CPU" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
@@ -15742,21 +15742,21 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="A6" class="0">
 <segment>
-<pinref part="U$2" gate="A" pin="A6"/>
+<pinref part="CPU" gate="A" pin="A6"/>
 <wire x1="177.8" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 <label x="175.26" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A7" class="0">
 <segment>
-<pinref part="U$2" gate="A" pin="A7"/>
+<pinref part="CPU" gate="A" pin="A7"/>
 <wire x1="177.8" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <label x="175.26" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="U$2" gate="A" pin="RES"/>
+<pinref part="CPU" gate="A" pin="RES"/>
 <wire x1="177.8" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <label x="175.26" y="139.7" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
