@@ -622,43 +622,6 @@ Black</text>
 <text x="-5.38" y="-2.74" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="0.635" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="OSHW-LOGO-L">
-<polygon width="0.15" layer="21">
-<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
-<vertex x="1.2751" y="-2.0407"/>
-<vertex x="2.1548" y="-2.758"/>
-<vertex x="2.758" y="-2.1548"/>
-<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
-<vertex x="2.3446" y="-0.5413"/>
-<vertex x="3.4739" y="-0.4265"/>
-<vertex x="3.4739" y="0.4265"/>
-<vertex x="2.3446" y="0.5413" curve="18.998791"/>
-<vertex x="2.0407" y="1.2751"/>
-<vertex x="2.758" y="2.1548"/>
-<vertex x="2.1548" y="2.758"/>
-<vertex x="1.2751" y="2.0407" curve="18.998791"/>
-<vertex x="0.5413" y="2.3446"/>
-<vertex x="0.4265" y="3.4739"/>
-<vertex x="-0.4265" y="3.4739"/>
-<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
-<vertex x="-1.2751" y="2.0407"/>
-<vertex x="-2.1548" y="2.758"/>
-<vertex x="-2.758" y="2.1548"/>
-<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
-<vertex x="-2.3446" y="0.5413"/>
-<vertex x="-3.4739" y="0.4265"/>
-<vertex x="-3.4739" y="-0.4265"/>
-<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
-<vertex x="-2.0407" y="-1.2751"/>
-<vertex x="-2.758" y="-2.1548"/>
-<vertex x="-2.1548" y="-2.758"/>
-<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
-<vertex x="-0.9209" y="-2.2231"/>
-<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
-<vertex x="-1.0938" y="0" curve="-247.497204"/>
-<vertex x="0.4186" y="-1.0105"/>
-</polygon>
-</package>
 <package name="TO-252">
 <description>SMALL OUTLINE TRANSISTOR TS-003</description>
 <wire x1="3.8354" y1="-3.2766" x2="-2.159" y2="-3.277" width="0.2032" layer="21"/>
@@ -1120,7 +1083,7 @@ design rules under a new name.</description>
 <element name="SCL" library="SPCoast" package="1X02_LOCK" value="0.100" x="79.375" y="33.655" smashed="yes" rot="R270">
 <attribute name="VALUE" x="77.6732" y="30.6832" size="1.016" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="U$1" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="13.335" y="56.515"/>
+<element name="OSH" library="SparkFun" package="OSHW-LOGO-L" value="L" x="13.335" y="56.515"/>
 <element name="J2" library="SPCoast" package="RJ25-PANEL" value="IO4" x="85.09" y="61.087" smashed="yes" rot="R180">
 <attribute name="VALUE" x="90.805" y="58.547" size="1.778" layer="27" rot="R180"/>
 <attribute name="OPL" value="none" x="85.09" y="61.087" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1163,7 +1126,6 @@ design rules under a new name.</description>
 <element name="BOARD" library="SPCoast" package="BOARD-DINRAIL-2.71IN-MRCS" value="BOARD69X100MRCS" x="0" y="0"/>
 <element name="C1" library="SPCoast" package="0805-CAP" value="1uF" x="20.32" y="43.815" rot="R90"/>
 <element name="C2" library="SPCoast" package="0805-CAP" value="1uF" x="6.35" y="43.815" rot="R90"/>
-<element name="OSH" library="SPCoast" package="OSHW-LOGO-L" value="L" x="5.08" y="5.08"/>
 <element name="IC1" library="SPCoast" package="TO-252" value="cj7805" x="13.335" y="46.99" rot="R90"/>
 <element name="CON1" library="SPCoast" package="MSTB2" value="5.08" x="29.21" y="13.97" smashed="yes">
 <attribute name="NAME" x="26.162" y="21.082" size="1.778" layer="25" ratio="10"/>
